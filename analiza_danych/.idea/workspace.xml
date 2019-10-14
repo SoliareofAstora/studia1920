@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/analiza_danych.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analiza_danych.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1pandasintro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1pandasintro.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570217231574</updated>
       <workItem from="1570217234958" duration="6488000" />
+      <workItem from="1570623111406" duration="3507000" />
     </task>
     <servers />
   </component>
@@ -65,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
