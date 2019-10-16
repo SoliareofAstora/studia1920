@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1pandasintro.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigment_2_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_2_without_code.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MissingData_ch04.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignement-0-numpy-matplotlib.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kc_house_data.csv.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/Assigment_1_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/Assigment_2_without_code.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/kc_house_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/rashka_ch10.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/1" />
     </key>
   </component>
@@ -63,7 +62,7 @@
       <updated>1570217231574</updated>
       <workItem from="1570217234958" duration="6488000" />
       <workItem from="1570623111406" duration="3507000" />
-      <workItem from="1571227908782" duration="460000" />
+      <workItem from="1571227908782" duration="2592000" />
     </task>
     <servers />
   </component>
