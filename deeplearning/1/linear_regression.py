@@ -50,3 +50,19 @@ for i in range(10000):
     output = linear(data, weights)
     print(loss(output, y))
     weights -= lr * grad(y, data, weights)
+
+
+
+
+
+def gradient(w, x, y):
+    return (1/len(y))*(x@w@x - y@x)
+
+def gradient_descent_step(b, X, y, lr):
+    return b - lr * gradient(b, data, y)
+
+def loss(x, y):
+    return np.sum(np.power(x-y,2)/x.shape[0]/2)
+
+
+

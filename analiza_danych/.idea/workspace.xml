@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2/Assigment_2_without_code.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Assigment_1_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Assigment_2_without_code.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/kc_house_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/rashka_ch10.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_1_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment_2_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment_2_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment_3_without_code.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deeplearning/1/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../deeplearning/1/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deeplearning/2/neural_net_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/../deeplearning/2/neural_net_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/MagicCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/java/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/MagicCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/Start.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +21,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="analiza_danych" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1RkhvYJblkgklLyYrpyQd1yE2Rg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,12 +51,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,6 +87,16 @@
       <workItem from="1570217234958" duration="6488000" />
       <workItem from="1570623111406" duration="3507000" />
       <workItem from="1571227908782" duration="2592000" />
+      <workItem from="1571964112534" duration="627000" />
+      <workItem from="1572285611197" duration="4840000" />
+      <workItem from="1572291628746" duration="3768000" />
+      <workItem from="1572363979821" duration="270000" />
+      <workItem from="1572365396082" duration="496000" />
+      <workItem from="1572441380452" duration="6196000" />
+      <workItem from="1572533284673" duration="48000" />
+      <workItem from="1573046218992" duration="1932000" />
+      <workItem from="1573050947126" duration="72000" />
+      <workItem from="1573227121863" duration="603000" />
     </task>
     <servers />
   </component>
