@@ -54,9 +54,9 @@ create table OnSiteCourse(
 alter table Person add BirthDate date;
 alter table Person add unique (FirstName, LastName);
 alter table Person add Age decimal;
-alter table Person alter column Age int;
+alter table Person alter Age type int;
 alter table Person alter EnrollmentDate set default now();
-
+alter table Person add unique (FirstName);
 drop table OfficeAssignment;
 
 alter table StudentsGrade add check ( Grade >= 2 and Grade <=5);

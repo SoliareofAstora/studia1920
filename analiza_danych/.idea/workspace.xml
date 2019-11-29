@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4/Assigment_4_without_code.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment_4_without_code.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/out/production/java/Destruction.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/out/production/java/DestructionInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/java/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/Destruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/Destruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/DestructionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/DestructionInterface.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,12 +48,14 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/4" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,6 +96,8 @@
       <workItem from="1574188437348" duration="597000" />
       <workItem from="1574275496930" duration="575000" />
       <workItem from="1574277464282" duration="303000" />
+      <workItem from="1574318258074" duration="14563000" />
+      <workItem from="1574339909127" duration="4208000" />
     </task>
     <servers />
   </component>
