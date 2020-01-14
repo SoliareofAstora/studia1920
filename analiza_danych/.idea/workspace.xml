@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="" />
+    <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/Assigment_4_Piotr Kucharski.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4/Assigment_4_Piotr Kucharski.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/Assigment_5_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/5/Assigment_5_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deeplearning/CIFAR/CIFAR10_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../deeplearning/CIFAR/CIFAR10_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/old/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/java/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$arrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$arrow_direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$button_pressed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$buttons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$coords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$game_states.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,10 +62,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WDI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,17 +78,18 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/5" />
-      <recent name="$PROJECT_DIR$/4" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2" />
       <recent name="$PROJECT_DIR$/4" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WDI" />
+      <recent name="$PROJECT_DIR$/5" />
+      <recent name="$PROJECT_DIR$/4" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/2" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -84,6 +103,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,7 +140,11 @@
       <workItem from="1576503769279" duration="5366000" />
       <workItem from="1576585440639" duration="1486000" />
       <workItem from="1576674512071" duration="1754000" />
-      <workItem from="1577136220855" duration="13906000" />
+      <workItem from="1577136220855" duration="14258000" />
+      <workItem from="1578488476037" duration="4350000" />
+      <workItem from="1578671036386" duration="1718000" />
+      <workItem from="1578962806693" duration="1718000" />
+      <workItem from="1578964553075" duration="917000" />
     </task>
     <servers />
   </component>
@@ -139,5 +163,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2459" height="293" key="GridCell.Tab.0.bottom" timestamp="1578672166012">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state width="1819" height="206" key="GridCell.Tab.0.bottom/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041957" />
+    <state width="2459" height="293" key="GridCell.Tab.0.bottom/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state width="2459" height="293" key="GridCell.Tab.0.center" timestamp="1578672166012">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state width="1819" height="206" key="GridCell.Tab.0.center/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
+    <state width="2459" height="293" key="GridCell.Tab.0.center/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state width="2459" height="293" key="GridCell.Tab.0.left" timestamp="1578672166012">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state width="1819" height="206" key="GridCell.Tab.0.left/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
+    <state width="2459" height="293" key="GridCell.Tab.0.left/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state width="2459" height="293" key="GridCell.Tab.0.right" timestamp="1578672166012">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state width="1819" height="206" key="GridCell.Tab.0.right/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
+    <state width="2459" height="293" key="GridCell.Tab.0.right/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state x="970" y="347" key="search.everywhere.popup" timestamp="1578962846297">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state x="970" y="347" key="search.everywhere.popup/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578962846297" />
   </component>
 </project>

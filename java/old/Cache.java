@@ -1,13 +1,11 @@
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public class Cache implements CacheInterface{
+public class Cache implements CacheInterface {
 
     int counter = 0;
-    ReadWriteLock rwlock = new ReentrantReadWriteLock();
-    Map<Integer,Long> base_timeout= new HashMap<>();
+    Map<Integer, Long> base_timeout = new HashMap<>();
     Map<Integer, Object> objects = new HashMap<>();
     Map<Integer, Long> current_timeout = new HashMap<>();
 
@@ -16,35 +14,36 @@ public class Cache implements CacheInterface{
         public void run() {
             while (true) {
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
+                LinkedList<Integer> todelete = new LinkedList<Integer>();
                 long current = System.currentTimeMillis();
                 for (var index : current_timeout.keySet()) {
                     if (current > current_timeout.get(index)) {
-                        rwlock.writeLock().lock();
-                        try {
-                            base_timeout.remove(index);
-                            objects.remove(index);
-                            current_timeout.remove(index);
-                        } finally {
-                            rwlock.writeLock().unlock();
-                        }
+                        todelete.add(index);
                     }
                 }
+                synchronized (objects) {
+                    for (var index : todelete) {
+                        base_timeout.remove(index);
+                        objects.remove(index);
+                        current_timeout.remove(index);
+                    }
+                }
+
             }
         }
     });
 
-    Cache(){
+    Cache() {
         master_thread.start();
     }
 
-    void reset_timeout(int index){
+    void reset_timeout(int index) {
         long current = System.currentTimeMillis();
-        current_timeout.put(index,current+base_timeout.get(index));
+        current_timeout.put(index, current + base_timeout.get(index));
     }
 
     /**
@@ -60,17 +59,14 @@ public class Cache implements CacheInterface{
      */
     @Override
     public int add(Object o, long timeout) {
-        int this_id = counter;
-        rwlock.writeLock().lock();
-        try {
-            base_timeout.put(counter,timeout);
-            objects.put(counter,o);
+        synchronized (objects) {
+            int this_id = counter;
+            base_timeout.put(counter, timeout);
+            objects.put(counter, o);
             reset_timeout(counter);
             counter++;
-        }finally {
-            rwlock.writeLock().unlock();
+            return this_id;
         }
-        return this_id;
     }
 
     /**
@@ -84,19 +80,25 @@ public class Cache implements CacheInterface{
     @Override
     public Object get(int id) {
         Object output = null;
-        rwlock.writeLock().lock();
-        try {
-            reset_timeout(id);
-        } finally {
-            rwlock.writeLock().unlock();
+
+        if (objects.containsKey(id)) {
+            long current = System.currentTimeMillis();
+            if (current > current_timeout.get(id)) {
+                synchronized (objects) {
+                    base_timeout.remove(id);
+                    objects.remove(id);
+                    current_timeout.remove(id);
+                }
+                return null;
+            }
+
+            synchronized (objects) {
+                reset_timeout(id);
+                output = objects.get(id);
+            }
+            return output;
         }
-        rwlock.readLock().lock();
-        try {
-            output = objects.get(id);
-        } finally {
-            rwlock.readLock().unlock();
-        }
-        return output;
+        return null;
     }
 
     /**
@@ -108,11 +110,8 @@ public class Cache implements CacheInterface{
     @Override
     public long getTimeout(int id) {
         long output = 0;
-        rwlock.readLock().lock();
-        try {
+        synchronized (objects) {
             output = current_timeout.get(id) - System.currentTimeMillis();
-        } finally {
-            rwlock.readLock().unlock();
         }
         return output;
     }
@@ -125,13 +124,10 @@ public class Cache implements CacheInterface{
      */
     @Override
     public void delete(int id) {
-        rwlock.writeLock().lock();
-        try {
+        synchronized (objects) {
             base_timeout.remove(id);
             objects.remove(id);
             current_timeout.remove(id);
-        }finally {
-            rwlock.writeLock().unlock();
         }
     }
 
@@ -142,14 +138,12 @@ public class Cache implements CacheInterface{
      */
     @Override
     public void incrementTimeout(long time) {
-        rwlock.writeLock().lock();
-        try {
-            for (var index:objects.keySet()) {
+        synchronized (objects) {
+            for (var index : objects.keySet()) {
                 var current = current_timeout.get(index);
-                current_timeout.put(index,current+time);
+                current_timeout.put(index, current + time);
             }
-        }finally {
-            rwlock.writeLock().unlock();
         }
     }
 }
+

@@ -20,9 +20,9 @@ gwb = wiki.index[wiki.name=='George W. Bush'].tolist()
 jb = wiki.index[wiki.name=='Joe Biden'].tolist()
 
 pairwise_distances(WCmatrix[gwb],WCmatrix[bo])
-min = pairwise_distances(WCmatrix[gwb],WCmatrix[jb])
 pairwise_distances(WCmatrix[jb],WCmatrix[bo])
-
+min = pairwise_distances(WCmatrix[gwb],WCmatrix[jb])
+min
 
 def top_words(name):
     """
@@ -76,13 +76,11 @@ WCmatrix=vectorizer.fit_transform(wiki.text)# Your code goes here
 tfidf=TfidfTransformer(smooth_idf=False, norm=None)
 TFIDFmatrix = tfidf.fit_transform(WCmatrix)
 
-
 wiki['BO-eucl-TF-IDF'] = pairwise_distances(TFIDFmatrix,TFIDFmatrix[35817])
+wiki['BO-eucl-TF-IDF'].sort_values( ascending=True).head(10)
 
-wiki['BO-eucl-TF-IDF'].sort_values( ascending=True)
 
 name = 'Barack Obama'
-
 word_to_ind = {v: i for i, v in enumerate(vectorizer.get_feature_names())}
 def top_words_tf_idf(name):
     """
@@ -98,13 +96,12 @@ def top_words_tf_idf(name):
 
 obama_words = top_words_tf_idf('Barack Obama')
 obama_words
-
 barrio_words = top_words_tf_idf('Phil Schiliro')
 barrio_words
 
-
 common_words = obama_words.join(barrio_words, how='inner',lsuffix="_obama", rsuffix="_Barrio")
-common_words.sort_values(by='tf-idf_obama', ascending=False).head(10)
+common_words.sort_values(by='tf-idf_obama', ascending=False).head(15)
+
 frequent_words = common_words.sort_values(by='tf-idf_obama', ascending=False).head(15).index.tolist()
 
 bush_words = top_words_tf_idf('George W. Bush')
@@ -136,6 +133,8 @@ def compute_length(row):
 wiki['length'] = list(map(compute_length,wiki.text))# Your code goes here
 
 data = wiki.sort_values(by='BO-eucl-TF-IDF',ascending=True)[['name','length','BO-eucl-TF-IDF']][0:100]
+data.head(100)
+
 
 tweet = pd.DataFrame({'text': ['democratic governments control law in response to popular act']})
 
@@ -146,6 +145,13 @@ df.sort_values(by='tf-idf', ascending=False)
 
 obama = np.array(tfidf.transform(vectorizer.transform(wiki[wiki.name=='Barack Obama'].text)).todense())
 
-
 from sklearn.metrics.pairwise import cosine_distances # for one pair of samples we can just use this function
 cosine_distances(tmp,obama)
+
+
+wiki['BO-TF-IDF cox'] = cosine_distances(TFIDFmatrix,obama)
+data = wiki.sort_values(by='BO-TF-IDF cox',ascending=True)[['name','length','BO-TF-IDF cox']][0:100]
+data.head(23)
+
+plt.hist(data['length'],bins=20)
+plt.show()
