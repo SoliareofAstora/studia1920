@@ -3,3 +3,9 @@
 .idea/
 *people_wiki.csv
 *.csv
+*.txt
+*.zip
+/data*
+*data*
+*.tar
+*.h5
