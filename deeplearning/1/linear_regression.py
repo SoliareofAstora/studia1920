@@ -6,7 +6,6 @@ from mpl_toolkits.mplot3d import Axes3D
 def linear(x, w):
     return x@w
 
-
 def loss(x, y):
     return np.sum(np.power(x-y,2)/x.shape[0]/2)
 

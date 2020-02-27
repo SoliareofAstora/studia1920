@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893b065a-975e-4b7f-9da1-27ba8f412bc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ClimateChange/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimateChange/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/Assigment_4_Piotr Kucharski.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4/Assigment_4_Piotr Kucharski.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/Assigment_5_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/5/Assigment_5_without_code.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5/tmp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deeplearning/CIFAR/CIFAR10_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../deeplearning/CIFAR/CIFAR10_without_code.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/old/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/Assigment_2_without_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2/Assigment_2_without_code.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bazy/dvd_rental/sandbox-postgres-dvd-rental-master/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../bazy/dvd_rental/sandbox-postgres-dvd-rental-master/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deeplearning/1/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../deeplearning/1/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deeplearning/dreamds/5.4-visualizing-what-convnets-learn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start$4.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/out/production/java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/java/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$arrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$arrow_direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$button_pressed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$buttons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$coords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game$game_states.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/java/game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Supplier$Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/java/SupplierInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/SupplierInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/old/SupplierInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="57be3c03-b8ec-41e3-afc4-d24c09e676a2" />
+  <component name="JupyterTrust" id="57be3c03-b8ec-41e3-afc4-d24c09e676a2">
+    <option name="files">
+      <option value="7/Assigment_7_without_code.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1RkhvYJblkgklLyYrpyQd1yE2Rg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -66,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WDI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +79,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,11 +89,11 @@
       <recent name="$PROJECT_DIR$/1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7" />
+      <recent name="$PROJECT_DIR$/6" />
       <recent name="$PROJECT_DIR$/WDI" />
       <recent name="$PROJECT_DIR$/5" />
       <recent name="$PROJECT_DIR$/4" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/2" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -145,6 +149,19 @@
       <workItem from="1578671036386" duration="1718000" />
       <workItem from="1578962806693" duration="1718000" />
       <workItem from="1578964553075" duration="917000" />
+      <workItem from="1579279670908" duration="5764000" />
+      <workItem from="1579286123922" duration="1935000" />
+      <workItem from="1579293155330" duration="616000" />
+      <workItem from="1579447519924" duration="6163000" />
+      <workItem from="1579620267267" duration="289000" />
+      <workItem from="1579691272729" duration="121000" />
+      <workItem from="1579692886760" duration="6217000" />
+      <workItem from="1579712891172" duration="829000" />
+      <workItem from="1580049009279" duration="821000" />
+      <workItem from="1580052494804" duration="66000" />
+      <workItem from="1580115819807" duration="1210000" />
+      <workItem from="1580212863521" duration="118000" />
+      <workItem from="1580225834145" duration="1848000" />
     </task>
     <servers />
   </component>
@@ -165,26 +182,49 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="2459" height="293" key="GridCell.Tab.0.bottom" timestamp="1578672166012">
+    <state x="542" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579695383947">
       <screen x="55" y="27" width="2505" height="1413" />
     </state>
-    <state width="1819" height="206" key="GridCell.Tab.0.bottom/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041957" />
+    <state x="542" y="490" width="424" height="484" key="FileChooserDialogImpl/55.27.2505.1413@55.27.2505.1413" timestamp="1579695383947" />
+    <state width="1819" height="259" key="GridCell.Tab.0.bottom" timestamp="1580115846856">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state width="1819" height="259" key="GridCell.Tab.0.bottom/55.27.1865.1053@55.27.1865.1053" timestamp="1580115846856" />
+    <state width="1874" height="111" key="GridCell.Tab.0.bottom/55.27.2505.1413/2560.360.1920.1080@2560.360.1920.1080" timestamp="1580049223113" />
     <state width="2459" height="293" key="GridCell.Tab.0.bottom/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
-    <state width="2459" height="293" key="GridCell.Tab.0.center" timestamp="1578672166012">
-      <screen x="55" y="27" width="2505" height="1413" />
+    <state width="2459" height="265" key="GridCell.Tab.0.bottom/55.27.2505.1413@55.27.2505.1413" timestamp="1579692908817" />
+    <state width="1819" height="259" key="GridCell.Tab.0.center" timestamp="1580115846855">
+      <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="206" key="GridCell.Tab.0.center/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
+    <state width="1819" height="259" key="GridCell.Tab.0.center/55.27.1865.1053@55.27.1865.1053" timestamp="1580115846855" />
+    <state width="1874" height="111" key="GridCell.Tab.0.center/55.27.2505.1413/2560.360.1920.1080@2560.360.1920.1080" timestamp="1580049223113" />
     <state width="2459" height="293" key="GridCell.Tab.0.center/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
-    <state width="2459" height="293" key="GridCell.Tab.0.left" timestamp="1578672166012">
-      <screen x="55" y="27" width="2505" height="1413" />
+    <state width="2459" height="265" key="GridCell.Tab.0.center/55.27.2505.1413@55.27.2505.1413" timestamp="1579692908816" />
+    <state width="1819" height="259" key="GridCell.Tab.0.left" timestamp="1580115846855">
+      <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="206" key="GridCell.Tab.0.left/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
+    <state width="1819" height="259" key="GridCell.Tab.0.left/55.27.1865.1053@55.27.1865.1053" timestamp="1580115846855" />
+    <state width="1874" height="111" key="GridCell.Tab.0.left/55.27.2505.1413/2560.360.1920.1080@2560.360.1920.1080" timestamp="1580049223112" />
     <state width="2459" height="293" key="GridCell.Tab.0.left/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
-    <state width="2459" height="293" key="GridCell.Tab.0.right" timestamp="1578672166012">
+    <state width="2459" height="265" key="GridCell.Tab.0.left/55.27.2505.1413@55.27.2505.1413" timestamp="1579692908816" />
+    <state width="1819" height="259" key="GridCell.Tab.0.right" timestamp="1580115846856">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state width="1819" height="259" key="GridCell.Tab.0.right/55.27.1865.1053@55.27.1865.1053" timestamp="1580115846856" />
+    <state width="1874" height="111" key="GridCell.Tab.0.right/55.27.2505.1413/2560.360.1920.1080@2560.360.1920.1080" timestamp="1580049223113" />
+    <state width="2459" height="293" key="GridCell.Tab.0.right/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state width="2459" height="265" key="GridCell.Tab.0.right/55.27.2505.1413@55.27.2505.1413" timestamp="1579692908817" />
+    <state x="796" y="367" key="SettingsEditor" timestamp="1579279867895">
       <screen x="55" y="27" width="2505" height="1413" />
     </state>
-    <state width="1819" height="206" key="GridCell.Tab.0.right/55.27.1865.1053@55.27.1865.1053" timestamp="1578491041956" />
-    <state width="2459" height="293" key="GridCell.Tab.0.right/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1578672166012" />
+    <state x="796" y="367" key="SettingsEditor/55.27.2505.1413@55.27.2505.1413" timestamp="1579279867895" />
+    <state x="885" y="228" width="487" height="1076" key="dock-window-1" timestamp="1579712916225">
+      <screen x="55" y="27" width="2505" height="1413" />
+    </state>
+    <state x="1060" y="27" width="860" height="1053" key="dock-window-1/55.27.1865.1053@55.27.1865.1053" timestamp="1579698907647" />
+    <state x="885" y="228" width="487" height="1076" key="dock-window-1/55.27.2505.1413/2560.360.1920.1080@55.27.2505.1413" timestamp="1579712916225" />
+    <state x="1523" y="228" width="860" height="1076" key="dock-window-1/55.27.2505.1413@55.27.2505.1413" timestamp="1579696794069" />
+    <state x="1522" y="228" width="860" height="1076" key="dock-window-1/55.27.4425.1413@55.27.4425.1413" timestamp="1579703554544" />
     <state x="970" y="347" key="search.everywhere.popup" timestamp="1578962846297">
       <screen x="55" y="27" width="2505" height="1413" />
     </state>
